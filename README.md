@@ -9,7 +9,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Github](https://awwalv.github.io/FAQ-accordion-card-/)
+- Live Site URL: [https://awwalv.github.io/FAQ-accordion-card-/](https://awwalv.github.io/FAQ-accordion-card-/)
 
 
 ## Author
