@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.container{
+    background-color: white;
+    margin: 140px 20px 0px 20px;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 0px 10px 40px 10px;
+    position: relative;
+}
+.woman-online{
+    background-image: url(./images/bg-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 120px;
+   
+}
+.mobile-illustration{
+    position: absolute;
+    text-align: center;
+    top:-120px;
+    left: 40px;
+    width: 80%;
+}
+.desktop-illustration{
+    display: none;
+    visibility: none;
+}
+.faq h1{
+    text-align: center;
+    margin: 10px auto;
+    font-size: 2em;
+    color: hsl(238, 29%, 16%);
+
+}
+h2{
+    color: hsl(240, 6%, 50%);
+    font-size: 1.1em;
+    margin: 15px 0px;
+}
+h3{
+    color:hsl(240, 6%, 50%);
+    display: none;
+
+}
+.divider{
+    border: 1px solid hsl(240, 5%, 91%);
+}
+.question-arrow-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.attribution {
+    font-size: 15px; 
+    margin:15px auto ;
+    text-align: center; 
+}
+.attribution a { 
+    color: white; 
+}
+.arrow-up{
+    transform: rotate(180deg);
+}
+.arrow-down{
+    transform: rotate(180deg);
+}
+
+@media screen and (min-width:600px){
+    body{
+        height: 100vh;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin: 100px 40px 0px 40px;
+        padding: 20px 10px 60px 10px;
+
+   
+    }
+    .mobile-illustration{
+        position: absolute;
+        transform: translate(-30%,-50%);
+        top:50%;
+        width: 40%;
+    }
+    .woman-online{
+        background-image: url(./images/bg-pattern-desktop.svg);
+        background-repeat: repeat;
+        background-size: contain; 
+    }
+    .faq{
+        width: 60%;
+    }
+    .faq h1{
+        text-align: justify;
+    }
+}
